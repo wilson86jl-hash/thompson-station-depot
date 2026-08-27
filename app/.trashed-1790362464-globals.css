@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-stencil: 'Oswald', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F1EAD9;
+  color: #1B1B18;
+}
+
+/* Visible keyboard focus everywhere */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid #C08A3E;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Subtle grain texture used on dark iron sections */
+.bg-iron-grain {
+  background-color: #23262B;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.045) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+.bg-manila-grain {
+  background-color: #F1EAD9;
+  background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.05) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+/* Hanging inventory tag — the site's signature product-card shape */
+.depot-tag {
+  position: relative;
+  background: #F1EAD9;
+  border: 1px solid rgba(27,27,24,0.18);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 12% 100%, 0 88%);
+}
+
+.depot-tag::before {
+  content: '';
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #F1EAD9;
+  border: 2px solid rgba(27,27,24,0.35);
+  box-shadow: inset 0 0 0 2px #F1EAD9;
+}
+
+/* Ink stamp badge for availability / sold status */
+.stamp {
+  font-family: var(--font-stencil);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 2.5px solid currentColor;
+  border-radius: 3px;
+  padding: 2px 10px;
+  display: inline-block;
+  transform: rotate(-3deg);
+  opacity: 0.9;
+}
+
+/* Perforated divider */
+.perf-divider {
+  border: none;
+  border-top: 2px dashed rgba(27,27,24,0.25);
+}

@@ -1,0 +1,124 @@
+// Thompson Station Depot inventory.
+// To add or remove items for sale, edit this list and redeploy.
+// price is in CENTS (e.g. 4500 = $45.00). image paths live in /public/products/.
+
+const products = [
+  {
+    id: 'tsd-001',
+    sku: 'TSD-001',
+    name: 'Reclaimed Oak Farm Table',
+    category: 'Furniture',
+    price: 42500,
+    condition: 'Good — light wear',
+    description:
+      'Solid oak farmhouse table, seats six. Sourced from a Franklin County estate sale. Sturdy joinery, minor surface scratches consistent with age.',
+    image: '/products/placeholder-furniture.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-002',
+    sku: 'TSD-002',
+    name: 'Industrial Steel Shelving Unit',
+    category: 'Equipment',
+    price: 18000,
+    condition: 'Excellent',
+    description:
+      '5-tier commercial steel shelving, 72" tall. Great for garage, warehouse, or shop storage. Some surface rust spot-treated.',
+    image: '/products/placeholder-equipment.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-003',
+    sku: 'TSD-003',
+    name: 'Vintage Leather Wingback Chair',
+    category: 'Furniture',
+    price: 32000,
+    condition: 'Good — patina',
+    description:
+      'Genuine leather wingback with brass nailhead trim. Deep, worn-in patina. One armrest has minor stitching repair.',
+    image: '/products/placeholder-furniture.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-004',
+    sku: 'TSD-004',
+    name: 'DEWALT Table Saw, 10"',
+    category: 'Tools',
+    price: 27500,
+    condition: 'Used — tested working',
+    description:
+      'Jobsite table saw with rolling stand. Blade recently replaced. Powers on and cuts true — tested before listing.',
+    image: '/products/placeholder-tools.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-005',
+    sku: 'TSD-005',
+    name: 'Mid-Century Walnut Dresser',
+    category: 'Furniture',
+    price: 38500,
+    condition: 'Very good',
+    description:
+      'Six-drawer walnut dresser, original brass pulls, smooth-gliding drawers. A clean example of the era.',
+    image: '/products/placeholder-furniture.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-006',
+    sku: 'TSD-006',
+    name: 'Commercial Espresso Machine',
+    category: 'Equipment',
+    price: 65000,
+    condition: 'Used — fully serviced',
+    description:
+      '2-group commercial espresso machine, pulled from a closed cafe. Fully descaled and serviced, ready to run.',
+    image: '/products/placeholder-equipment.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-007',
+    sku: 'TSD-007',
+    name: 'Cast Iron Wood Stove',
+    category: 'Outdoor',
+    price: 47500,
+    condition: 'Good',
+    description:
+      'Freestanding cast iron wood stove, good seal on the door gasket, chimney pipe included.',
+    image: '/products/placeholder-outdoor.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-008',
+    sku: 'TSD-008',
+    name: 'Rolling Tool Chest, 26"',
+    category: 'Tools',
+    price: 22000,
+    condition: 'Very good',
+    description:
+      'Ball-bearing drawer slides, keyed lock, minor cosmetic scuffs on the base. Empty, ready to fill.',
+    image: '/products/placeholder-tools.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-009',
+    sku: 'TSD-009',
+    name: 'Antique Brass Floor Lamp',
+    category: 'Antiques',
+    price: 14500,
+    condition: 'Good — working',
+    description:
+      'Adjustable brass floor lamp, rewired for modern use, original patina intact. Tested and working.',
+    image: '/products/placeholder-antiques.svg',
+    inStock: true,
+  },
+];
+
+export default products;
+
+export function getProductById(id) {
+  return products.find((p) => p.id === id);
+}
+
+export function getCategories() {
+  return [...new Set(products.map((p) => p.category))].sort();
+}

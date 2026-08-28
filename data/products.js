@@ -111,7 +111,114 @@ const products = [
     image: '/products/placeholder-antiques.svg',
     inStock: true,
   },
-];
+{
+    id: 'tsd-010',
+    sku: 'TSD-010',
+    name: 'Bobcat S70 Compact Skid Steer',
+    category: 'Equipment',
+    price: 1450000,
+    condition: 'Good — runs strong, some hour wear',
+    description:
+      'Compact skid steer, low hours, recently serviced. Great for site cleanup and small grading jobs.',
+    image: '/products/placeholder-equipment.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-011',
+    sku: 'TSD-011',
+    name: 'Honda Backup Generator, 7000W',
+    category: 'Equipment',
+    price: 62000,
+    condition: 'Excellent',
+    description:
+      'Gas-powered portable generator, electric start. Handles a full job trailer or home backup.',
+    image: '/products/placeholder-equipment.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-012',
+    sku: 'TSD-012',
+    name: 'Towable Air Compressor, 185 CFM',
+    category: 'Equipment',
+    price: 385000,
+    condition: 'Good — working condition',
+    description:
+      'Diesel towable compressor for jackhammers and pneumatic tools. Road-ready with trailer hitch.',
+    image: '/products/placeholder-equipment.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-013',
+    sku: 'TSD-013',
+    name: 'DEWALT 20V Cordless Drill/Driver Kit',
+    category: 'Tools',
+    price: 12000,
+    condition: 'Excellent',
+    description:
+      'Cordless drill kit with two batteries, charger, and case. Barely used.',
+    image: '/products/placeholder-tools.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-014',
+    sku: 'TSD-014',
+    name: 'Milwaukee Reciprocating Saw',
+    category: 'Tools',
+    price: 9500,
+    condition: 'Good — light wear',
+    description:
+      'Corded reciprocating saw, tool-free blade change. Great for demo work.',
+    image: '/products/placeholder-tools.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-015',
+    sku: 'TSD-015',
+    name: 'Craftsman Rolling Tool Chest, 5-Drawer',
+    category: 'Tools',
+    price: 21000,
+    condition: 'Good',
+    description:
+      'Heavy-gauge steel rolling tool chest with ball-bearing drawer slides. Empty, ready to fill.',
+    image: '/products/placeholder-tools.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-016',
+    sku: 'TSD-016',
+    name: 'Solid Wood Dresser, 6-Drawer',
+    category: 'Furniture',
+    price: 27500,
+    condition: 'Good — minor scuffs',
+    description:
+      'Sturdy solid wood dresser, six drawers with working glide tracks. Refinish-ready or use as-is.',
+    image: '/products/placeholder-furniture.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-017',
+    sku: 'TSD-017',
+    name: 'Mid-Century Walnut Bookshelf',
+    category: 'Furniture',
+    price: 18500,
+    condition: 'Good — patina',
+    description:
+      'Tall walnut bookshelf with tapered legs, five adjustable shelves.',
+    image: '/products/placeholder-furniture.svg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-018',
+    sku: 'TSD-018',
+    name: 'Outdoor Teak Patio Set (4-Piece)',
+    category: 'Furniture',
+    price: 65000,
+    condition: 'Excellent',
+    description:
+      'Weather-treated teak table and four chairs. Stored indoors, minimal wear.',
+    image: '/products/placeholder-furniture.svg',
+    inStock: true,
+  },];
 
 export default products;
 

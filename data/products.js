@@ -12,7 +12,7 @@ const products = [
     condition: 'Good — light wear',
     description:
       'Solid oak farmhouse table, seats six. Sourced from a Franklin County estate sale. Sturdy joinery, minor surface scratches consistent with age.',
-    image: '/products/photo-3.png',
+    image: '/products/placeholder-furniture.svg',
     inStock: true,
   },
   {
@@ -24,7 +24,7 @@ const products = [
     condition: 'Excellent',
     description:
       '5-tier commercial steel shelving, 72" tall. Great for garage, warehouse, or shop storage. Some surface rust spot-treated.',
-    image: '/products/photo-8.png',
+    image: '/products/placeholder-equipment.svg',
     inStock: true,
   },
   {
@@ -48,7 +48,7 @@ const products = [
     condition: 'Used — tested working',
     description:
       'Jobsite table saw with rolling stand. Blade recently replaced. Powers on and cuts true — tested before listing.',
-    image: '/products/photo-7.png',
+    image: '/products/placeholder-tools.svg',
     inStock: true,
   },
   {
@@ -60,7 +60,7 @@ const products = [
     condition: 'Very good',
     description:
       'Six-drawer walnut dresser, original brass pulls, smooth-gliding drawers. A clean example of the era.',
-    image: '/products/photo-5.png',
+    image: '/products/placeholder-furniture.svg',
     inStock: true,
   },
   {
@@ -72,7 +72,7 @@ const products = [
     condition: 'Used — fully serviced',
     description:
       '2-group commercial espresso machine, pulled from a closed cafe. Fully descaled and serviced, ready to run.',
-    image: '/products/photo-6.png',
+    image: '/products/placeholder-equipment.svg',
     inStock: true,
   },
   {
@@ -84,7 +84,7 @@ const products = [
     condition: 'Good',
     description:
       'Freestanding cast iron wood stove, good seal on the door gasket, chimney pipe included.',
-    image: '/products/placeholder-outdoor.svg',
+    image: '/products/photo-9.jpg',
     inStock: true,
   },
   {
@@ -108,7 +108,7 @@ const products = [
     condition: 'Good — working',
     description:
       'Adjustable brass floor lamp, rewired for modern use, original patina intact. Tested and working.',
-    image: '/products/photo-2.png',
+    image: '/products/placeholder-antiques.svg',
     inStock: true,
   },
 {
@@ -180,7 +180,7 @@ const products = [
     condition: 'Good',
     description:
       'Heavy-gauge steel rolling tool chest with ball-bearing drawer slides. Empty, ready to fill.',
-    image: '/products/photo-4.png',
+    image: '/products/placeholder-tools.svg',
     inStock: true,
   },
   {
@@ -192,7 +192,7 @@ const products = [
     condition: 'Good — minor scuffs',
     description:
       'Sturdy solid wood dresser, six drawers with working glide tracks. Refinish-ready or use as-is.',
-    image: '/products/photo-1.png',
+    image: '/products/placeholder-furniture.svg',
     inStock: true,
   },
   {

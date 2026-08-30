@@ -72,7 +72,7 @@ const products = [
     condition: 'Used — fully serviced',
     description:
       '2-group commercial espresso machine, pulled from a closed cafe. Fully descaled and serviced, ready to run.',
-    image: '/products/placeholder-equipment.svg',
+    image: '/products/espresso_machine_6.jpg,
     inStock: true,
   },
   {

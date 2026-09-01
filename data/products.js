@@ -48,7 +48,7 @@ const products = [
     condition: 'Used — tested working',
     description:
       'Jobsite table saw with rolling stand. Blade recently replaced. Powers on and cuts true — tested before listing.',
-    image: ' /products/table_saw_7.jpg,
+    image: '/products/table_saw.png', 
     inStock: true,
   },
   {

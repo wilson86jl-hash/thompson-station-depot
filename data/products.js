@@ -60,7 +60,7 @@ const products = [
     condition: 'Very good',
     description:
       'Six-drawer walnut dresser, original brass pulls, smooth-gliding drawers. A clean example of the era.',
-    image: ' /products/dresser_1.jpg,
+    image: '/products/oak_dresser.png',
     inStock: true,
   },
   {

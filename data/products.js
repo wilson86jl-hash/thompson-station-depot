@@ -24,7 +24,7 @@ const products = [
     condition: 'Excellent',
     description:
       '5-tier commercial steel shelving, 72" tall. Great for garage, warehouse, or shop storage. Some surface rust spot-treated.',
-    image: '/products/placeholder-equipment.svg',
+    image: '/products/industrial_steel_shelving_unit.png',
     inStock: true,
   },
   {

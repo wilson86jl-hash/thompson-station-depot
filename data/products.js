@@ -12,7 +12,7 @@ const products = [
     condition: 'Good — light wear',
     description:
       'Solid oak farmhouse table, seats six. Sourced from a Franklin County estate sale. Sturdy joinery, minor surface scratches consistent with age.',
-    image: /products/farm_table_3.jpg,
+    image: '/products/coffee_table.png',
     inStock: true,
   },
   {

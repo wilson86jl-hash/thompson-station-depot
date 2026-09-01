@@ -96,7 +96,7 @@ const products = [
     condition: 'Very good',
     description:
       'Ball-bearing drawer slides, keyed lock, minor cosmetic scuffs on the base. Empty, ready to fill.',
-    image: '/products/placeholder-tools.svg',
+    image: '/products/tool_cabinet.png',
     inStock: true,
   },
   {

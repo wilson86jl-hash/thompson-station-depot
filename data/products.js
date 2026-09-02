@@ -36,7 +36,7 @@ const products = [
     condition: 'Good — patina',
     description:
       'Genuine leather wingback with brass nailhead trim. Deep, worn-in patina.',
-    image: '/products/placeholder-furniture.svg',
+    image: '/products/wingback_leather_chair.png',
     inStock: true,
   },
   {
@@ -144,7 +144,7 @@ const products = [
     condition: 'Good — working condition',
     description:
       'Diesel towable compressor for jackhammers and pneumatic tools. Road-ready with trailer hitch.',
-    image: '/products/placeholder-equipment.svg',
+    image: '/products/heavyduty_compressor_pullbehind.jpg',
     inStock: true,
   },
   {

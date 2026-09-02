@@ -3,7 +3,27 @@
 // price is in CENTS (e.g. 4500 = $45.00). image paths live in /public/products/.
 
 const products = [
+  {{
+    id: 'tsd-023',
+    sku: 'TSD-023',
+    name: 'Lincoln Electric POWER MIG 256 Welder',
+    category: 'Tools',
+    price: 280000,
+    condition: 'Good — working',
+    description:
+      'Industrial MIG welder with gun and cable. Runs on 208/230V single phase. Shop-tested.',
+    image: '/products/red_commercial_welder.jpg',
+    inStock: true,
+  },
   {
+    id: 'tsd-024',
+    sku: 'TSD-024',
+    name: 'Miller MIG Welder',
+    category: 'Tools',
+    price: 280000,
+    condition: 'Good — working',
+    description:
+      'Miller MIG welder with gun and cable. Run
     id: 'tsd-001',
     sku: 'TSD-001',
     name: 'Reclaimed Oak Farm Table',

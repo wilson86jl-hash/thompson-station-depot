@@ -23,7 +23,13 @@ const products = [
     price: 280000,
     condition: 'Good — working',
     description:
-      'Miller MIG welder with gun and cable. Run
+      'Miller MIG welder with gun and cable. Runs on 208/230V single phase. Shop-tested. Model number available on request.',
+    image: '/products/commercial_welder.jpg',
+    inStock: true,
+  },
+  {
+    id: 'tsd-001',
+  
     id: 'tsd-001',
     sku: 'TSD-001',
     name: 'Reclaimed Oak Farm Table',

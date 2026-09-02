@@ -176,7 +176,7 @@ const products = [
     sku: 'TSD-015',
     name: 'Snap-on Rolling Tool Chest, 5-Drawer',
     category: 'Tools',
-    price: 21000,
+    price: 300000,
     condition: 'Good',
     description:
       'Heavy-gauge steel rolling tool chest with ball-bearing drawer slides. Empty, ready to fill.',

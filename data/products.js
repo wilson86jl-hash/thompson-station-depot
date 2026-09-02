@@ -4,6 +4,18 @@
 
 const products = [
   {
+    id: 'tsd-025',
+    sku: 'TSD-025',
+    name: 'Portable Air Compressor',
+    category: 'Tools',
+    price: 45000,
+    condition: 'Good — working',
+    description:
+      'Portable air compressor, tested and running. Good for shop work, air tools, and tire service.',
+    image: '/products/compressor.jpg',
+    inStock: true,
+  },
+  {
     id: 'tsd-023',
     sku: 'TSD-023',
     name: 'Lincoln Electric POWER MIG 256 Welder',

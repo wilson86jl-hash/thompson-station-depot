@@ -174,13 +174,13 @@ const products = [
   {
     id: 'tsd-015',
     sku: 'TSD-015',
-    name: 'Craftsman Rolling Tool Chest, 5-Drawer',
+    name: 'Snap-on Rolling Tool Chest, 5-Drawer',
     category: 'Tools',
     price: 21000,
     condition: 'Good',
     description:
       'Heavy-gauge steel rolling tool chest with ball-bearing drawer slides. Empty, ready to fill.',
-    image: '/products/placeholder-tools.svg',
+    image: '/products/Snapon_Large_Toolbox.jpg',
     inStock: true,
   },
   {

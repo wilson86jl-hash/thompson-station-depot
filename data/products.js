@@ -3,7 +3,7 @@
 // price is in CENTS (e.g. 4500 = $45.00). image paths live in /public/products/.
 
 const products = [
-  {{
+  {
     id: 'tsd-023',
     sku: 'TSD-023',
     name: 'Lincoln Electric POWER MIG 256 Welder',
@@ -28,8 +28,6 @@ const products = [
     inStock: true,
   },
   {
-    id: 'tsd-001',
-  
     id: 'tsd-001',
     sku: 'TSD-001',
     name: 'Reclaimed Oak Farm Table',
